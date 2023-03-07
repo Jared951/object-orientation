@@ -145,15 +145,12 @@ function totalPopulation(obj) {
 */
 
 //Code Here
-// let array =[]
 
-// function ingredients(obj) {
-//   let {carb, fat, protein} = obj
-//   array.push(obj)
-//   return array
-// }
+function ingredients(obj) {
+  const {carb, fat, protein} = obj
+  return [carb, fat, protein]
+}
 
-// console.log()
 //////////////////////////// PROBLEM 10 ////////////////////////////
 // Do not edit the code below.
 var user = {
